@@ -13,7 +13,7 @@ from .logger import get_logger
 logger = get_logger(__name__)
 
 app = FastAPI()
-database = Database('postgres://xerlthllapzvil:2384fdd7b1dc19ce2b0ca1f7d83245c260bfd296921ffd8fea4597a877d0a94a@ec2-3-208-79-113.compute-1.amazonaws.com:5432/d9hptkohpn1k0f')
+database = Database('postgres://book_store_nkrjgr_user:sxjrGPGByXVQIM3wdLLKtuDk0Orfsdg1@dpg-ce12fio2i3mkuce8pm90-a/book_store_nkrjgr')
 
 
 @app.get("/")
