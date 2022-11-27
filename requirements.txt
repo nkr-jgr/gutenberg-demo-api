@@ -6,3 +6,4 @@ databases[asyncpg]
 pytest
 requests
 Gunicorn
+asyncpg
